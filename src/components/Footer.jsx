@@ -74,11 +74,11 @@ const Footer = () => {
             <div className="flex space-x-3 md:order-2 order-1 text-white">
               <a href="/termsandconditions" className="hover:text-[#EF1C68]">Terms of Services</a>
               <span> | </span>
-              <a href="/privacypolicy" className="hover:text-teal-400">Privacy Policy</a>
+              <a href="/privacypolicy" className="hover:text-[#EF1C68]">Privacy Policy</a>
               <span> | </span>
-              <a href="#" className="hover:text-teal-400">FAQs</a>
+              <a href="#" className="hover:text-[#EF1C68]">FAQs</a>
               <span> | </span>
-              <a href="/contact-us" className="hover:text-teal-400">Contact Us</a>
+              <a href="/contact-us" className="hover:text-[#EF1C68]">Contact Us</a>
             </div>
           </div>
         </div>
