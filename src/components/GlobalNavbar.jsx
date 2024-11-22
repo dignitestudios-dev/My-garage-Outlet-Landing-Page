@@ -67,7 +67,7 @@ const GlobalNavbar = () => {
         </div>
 
         <div className="font-inter hidden md:flex mb-4">
-          <button className="bg-[#EF1C68] text-black px-5 py-2 rounded-full font-medium hover:bg-[#D0FCB3] w-[163px] h-[40px]">
+          <button className="bg-[#EF1C68] text-black px-5 py-2 rounded-full font-medium hover:bg-[#EF1C68] w-[163px] h-[40px]">
             Get The App
           </button>
         </div>
