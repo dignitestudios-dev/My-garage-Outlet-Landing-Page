@@ -1,8 +1,10 @@
 import React from 'react';
+import GlobalNavbar from './GlobalNavbar';
 
 const PrivacyPolicy = () => {
   return (
     <>
+    <GlobalNavbar/>
       <div className="bg-[#0D1B2A] px-8 md:px-20 lg:px-40 py-10 text-white">
         <h1 className="text-4xl text-white font-bold mb-6">Privacy Policy</h1>
         <p className="text-xl mb-4">Last Updated: 11/01/2024</p>

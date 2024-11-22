@@ -72,7 +72,7 @@ const Footer = () => {
             Copyright © 2024 MyGarageOutlet. All rights reserved.            </p>
 
             <div className="flex space-x-3 md:order-2 order-1 text-white">
-              <a href="/termsandconditions" className="hover:text-[#EF1C68]">Terms of Services</a>
+              <a href="/termsandconditions" className="hover:text-[#EF1C68]">Terms and Conditions</a>
               <span> | </span>
               <a href="/privacypolicy" className="hover:text-[#EF1C68]">Privacy Policy</a>
               <span> | </span>
