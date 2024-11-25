@@ -77,7 +77,7 @@ const GlobalNavbar = () => {
           onClick={toggleMenu}
         >
           <svg
-            className="w-6 h-6 text-black"
+            className="w-6 h-6 text-white"
             fill="none"
             stroke="currentColor"
             viewBox="0 0 24 24"
@@ -89,7 +89,7 @@ const GlobalNavbar = () => {
       </nav>
 
       {isOpen && (
-        <div className="md:hidden bg-black border border-white text-white w-full py-4 px-4">
+        <div className="md:hidden bg-[#0D1B2A] text-white w-full py-4 px-4">
           <ul className="flex flex-col space-y-4 items-center justify-center uppercase">
             <li
               className="hover:underline cursor-pointer"
@@ -116,7 +116,7 @@ const GlobalNavbar = () => {
               Contact Us
             </li>
           </ul>
-          <button className="bg-green-600 text-white w-full mt-4 py-2 rounded-full font-semibold hover:bg-green-700">
+          <button className="bg-[#EF1C68] text-white w-full mt-4 py-2 rounded-full font-semibold hover:bg-green-700">
             Get The App
           </button>
         </div>

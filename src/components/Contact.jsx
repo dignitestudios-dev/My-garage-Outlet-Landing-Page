@@ -15,10 +15,10 @@ const Contact = () => {
           <div className="space-y-6">
             {/* Our Office */}
             <div>
-              <h4 className="font-semibold mb-2">Our Office</h4>
+              <h4 className="font-semibold mb-2">Address</h4>
               <div className="flex items-center">
                 <FaMapMarkerAlt className="mr-3 text-xl" />
-                <p>1234 Elm Street Springfield, Anytown, USA</p>
+                <p>PO Box 24, Lecanto, FL 34460.</p>
               </div>
             </div>
 
@@ -27,16 +27,16 @@ const Contact = () => {
               <h4 className="font-semibold mb-2">Email</h4>
               <div className="flex items-center">
                 <FaEnvelope className="mr-3 text-xl" />
-                <p>hello@bennyhau.com</p>
+                <p>info@mygarageoutlet.com</p>
               </div>
             </div>
 
             {/* Phone */}
             <div>
-              <h4 className="font-semibold mb-2">Phone</h4>
+              <h4 className="font-semibold mb-2">Number</h4>
               <div className="flex items-center">
                 <FaPhoneAlt className="mr-3 text-xl" />
-                <p>123-456-7890</p>
+                <p>(888) 862-0399 ext. 101</p>
               </div>
             </div>
           </div>
