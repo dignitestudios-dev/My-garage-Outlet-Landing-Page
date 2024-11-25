@@ -86,7 +86,7 @@ const Contact = () => {
 
             <button
               type="submit"
-              className="w-[170px] h-[60px] bg-[#EF1C68] text-[16px] text-[#181818] font-semibold py-3 rounded-full transition duration-200 hover:bg-green-300 focus:outline-none"
+              className="w-[170px] h-[60px] bg-[#EF1C68] text-[16px] text-[#181818] font-semibold py-3 rounded-full transition duration-200 hover:bg-[#EF1C68] focus:outline-none"
             >
               Submit
             </button>
