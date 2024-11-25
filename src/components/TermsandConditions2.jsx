@@ -1,11 +1,8 @@
 import React from 'react';
-import GlobalNavbar from './GlobalNavbar';
-import Footer from './Footer';
 
 const TermsandConditions2 = () => {
   return (
     <>
-    <GlobalNavbar/>
       <div className="bg-[#0D1B2A] px-8 md:px-20 lg:px-40 py-10 text-white">
         <h1 className="text-4xl text-white font-bold mb-6">Terms and Conditions</h1>
         <p className="text-xl mb-4">Last Updated: Nov 1, 2024</p>
@@ -94,7 +91,6 @@ const TermsandConditions2 = () => {
           By using My Garage Outlet, you acknowledge that you have read, understood, and agree to be bound by these Terms and Conditions.
         </p>
       </div>
-      <Footer />
 
     </>
     
