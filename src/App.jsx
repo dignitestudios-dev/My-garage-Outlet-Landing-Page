@@ -7,6 +7,8 @@ import Features from "./components/Features";
 import Contact from "./components/Contact";
 import TermsandConditions from "./components/TermsandConditions";
 import PrivacyPolicy from "./components/PrivacyPolicy";
+import TermsandConditions2 from "./components/TermsandConditions2";
+import PrivacyPolicy2 from "./components/PrivacyPolicy2";
 
 // Add Terms and Conditions Component
 
@@ -25,13 +27,13 @@ function App() {
           </>
         } />
         
-        {/* Add route for /termsandconditions */}
         <Route path="/termsandconditions" element={<TermsandConditions />} />
         <Route path="/privacypolicy" element={<PrivacyPolicy />} />
+        <Route path="/termsandconditions2" element={<TermsandConditions2 />} />
+        <Route path="/privacypolicy2" element={<PrivacyPolicy2 />} />
 
       </Routes>
 
-      <Footer />
     </Router>
   );
 }

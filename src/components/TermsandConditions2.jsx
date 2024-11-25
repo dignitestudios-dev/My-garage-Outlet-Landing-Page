@@ -2,7 +2,7 @@ import React from 'react';
 import GlobalNavbar from './GlobalNavbar';
 import Footer from './Footer';
 
-const TermsandConditions = () => {
+const TermsandConditions2 = () => {
   return (
     <>
     <GlobalNavbar/>
@@ -101,4 +101,4 @@ const TermsandConditions = () => {
   );
 };
 
-export default TermsandConditions;
+export default TermsandConditions2;

@@ -1,8 +1,10 @@
 import React from 'react';
 import { FaMapMarkerAlt, FaEnvelope, FaPhoneAlt } from 'react-icons/fa';
+import Footer from './Footer';
 
 const Contact = () => {
   return (
+    <>
     <div className="bg-[#0D1B2A] flex justify-center items-center min-h-screen p-4" id="contactus">
       <div className="bg-gradient-to-r from-[#1B263B] to-[#0D1B2A]  rounded-lg overflow-hidden lg:w-2/3 w-full flex flex-col lg:flex-row">
 
@@ -91,7 +93,11 @@ const Contact = () => {
           </form>
         </div>
       </div>
+
     </div>
+    <Footer />
+
+    </>
   );
 };
 
