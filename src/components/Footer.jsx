@@ -76,6 +76,8 @@ const Footer = () => {
               <span> | </span>
               <a href="/privacypolicy" className="hover:text-[#EF1C68]">Privacy Policy</a>
               <span> | </span>
+              <a href="/childsafetypolicy" className="hover:text-[#EF1C68]">Contact Safety Policy</a>
+              <span> | </span>
               <a href="#" className="hover:text-[#EF1C68]">FAQs</a>
               <span> | </span>
               <a href="/contact-us" className="hover:text-[#EF1C68]">Contact Us</a>
