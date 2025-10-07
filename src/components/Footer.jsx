@@ -18,14 +18,14 @@ const Footer = () => {
             <p className="text-[14px] mx-auto">
             Download My Garage Outlet today and be part of a community that loves to find <br/> and share unique treasures.</p>
             <div className="mt-8 flex justify-center space-x-4">
-              <a href="#">
+              <a href="https://play.google.com/store/apps/details?id=com.dignitestudios.my_garage_outlet">
                 <img
                   src={playstore}
                   alt="Google Play"
                   className="h-14"
                 />
               </a>
-              <a href="#">
+              <a href="https://apps.apple.com/us/app/my-garage-outlet/id6738700701">
                 <img
                   src={appstore}
                   alt="App Store"
