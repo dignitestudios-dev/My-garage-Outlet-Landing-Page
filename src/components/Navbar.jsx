@@ -33,9 +33,10 @@ const Navbar = () => {
         </div>
 
         <div className="hidden md:flex mb-2">
-          <button className="bg-[#EF1C68] text-black px-5 py-2 rounded-full font-medium hover:bg-[#EF1C68] w-[163px] h-[40px]" onClick={() => scrollToSection('footer')>
-            Get The App
-          </button>
+         <button className="bg-[#EF1C68] text-black px-5 py-2 rounded-full font-medium hover:bg-[#EF1C68] w-[163px] h-[40px]" onClick={() => scrollToSection('footer')}>
+  Get The App
+</button>
+
         </div>
 
         <button
