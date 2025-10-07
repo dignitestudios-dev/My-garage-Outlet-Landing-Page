@@ -5,8 +5,8 @@ import { footerbg,appstore,playstore } from "../assets/export.js"; // Make sure 
 
 const Footer = () => {
   return (
-    <footer className="bg-[#0D1B2A] text-white relative" id="footer">
-      <div className="relative z-10 lg:-mb-20">
+    <footer className="bg-[#0D1B2A] text-white relative">
+      <div className="relative z-10 lg:-mb-20" id="footer">
         <div className="container mx-auto text-center">
           <div 
             className="p-10 rounded-2xl max-w-3xl mx-auto shadow-lg lg:w-[874px] lg:h-[284px] bg-[#EF1C68]"
